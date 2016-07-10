@@ -1,0 +1,80 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  .btn,
+  .btn-group {
+    float: none;
+    display: table-cell;
+    width: 1%;
+    .btn {
+      width: 100%;
+    }
+    .dropdown-menu {
+      left: auto;
+    }
+  }
+}
+
+.item-containers {  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+
+    img {
+      width: 100%;
+    }
+
+    .card-block {
+      padding: 10px;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .price {
+      font-style: italic;
+      text-align: right;
+    }
+  }
+}
+
+.menu-item-detail {
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .description {
+  }
+  .price {
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+.order-form {
+  .panel-body {
+    div {
+      margin-bottom: 10px;
+    }
+  }
+}

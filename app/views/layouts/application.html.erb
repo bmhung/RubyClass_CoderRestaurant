@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CoderRestaurant</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  <div class="header">
+    <%= link_to "Coder Restaurant", root_path %>
+  </div>
+
+  <div class="container">  		
+   <%= yield %>
+ </div>
+</body>
+</html>

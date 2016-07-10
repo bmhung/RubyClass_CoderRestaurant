@@ -1,0 +1,142 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Waffle
+  description: Waffle breakfast with bacon
+  price: 55000
+  section: breakfast
+  image_url: https://www.bobevans.com/_/media/bobevans_com/images/our-restaurants/menu/breakfast/waffle-breakfast-with-bacon.jpg
+
+two:
+  name: Burrito
+  description: Chicken burrito with vegetables
+  price: 70000
+  section: breakfast
+  image_url: http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2013/2/14/0/FNK_breakfast-burrito_s4x3.jpg.rend.sni18col.jpeg
+
+three:
+  name: Cereal
+  description: Cereal with fresh milk and fruits
+  price: 50000
+  section: breakfast
+  image_url: http://thebridge-can.com/wp-content/uploads/2015/11/Oatmeal-Breakfast-2.jpg
+
+four:
+  name: Sandwich
+  description: Sandwich with ham and egg
+  price: 45000
+  section: breakfast
+  image_url: http://www.costa.co.uk/media/378039/breakfast-bloomer.png
+
+five:
+  name: English Breakfast
+  description: 'Full English breakfast: sausage, bacon, egg, mushrooms, hash browns'
+  price: 90000
+  section: breakfast
+  image_url: http://previews.123rf.com/images/igordutina/igordutina1502/igordutina150200075/36196625-Full-english-breakfast-with-scrambled-egg-bacon-mushrooms-sausage-and-kidney-beans-Stock-Photo.jpg
+
+six:
+  name: Tart
+  description: Cabbage & Egg mini Tarts 
+  price: 80000
+  section: lunch
+  image_url: https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p750x750/13636015_1211227725588149_222468378_n.jpg?ig_cache_key=MTI5MDY3OTk4NjEzOTE2NTU4NA%3D%3D.2
+
+seven:
+  name: Seafood spagetti
+  description: Seafood spagetti
+  price: 100000
+  section: lunch
+  image_url: https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/e35/13652171_1727746284148036_574638538_n.jpg?ig_cache_key=MTI5MDc4NTQ3OTI5MzI2MjA4Nw%3D%3D.2
+
+eight:
+  name: Beefsteak
+  description: Beefsteak with salad
+  price: 120000
+  section: lunch
+  image_url: https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/s640x640/e15/13651899_1553408678299079_2013747025_n.jpg?ig_cache_key=MTI5MDc4NTM4Mzc4OTcxODUyMQ%3D%3D.2
+
+nine:
+  name: Mixed Pizza
+  description: Pizza with various flavours
+  price: 150000
+  section: lunch
+  image_url: https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/e35/13649188_1236400893071538_1044513071_n.jpg?ig_cache_key=MTI5MDc4NDY1NTM0NzU4MTQxNw%3D%3D.2
+
+ten:
+  name: Romaine Tacos
+  description: Romaine tacos, stuffed with chopped broccoli and mango salsa
+  price: 140000
+  section: lunch
+  image_url: https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/13643464_1449223338436745_442985128_n.jpg?ig_cache_key=MTI5MDc4NDE1NzA2NDMzMDM4Mw%3D%3D.2
+
+eleven:
+  name: Roasted Chicken
+  description: Roasted chicken with rice and green beans
+  price: 100000
+  section: dinner
+  image_url: https://ag.purdue.edu/agcomm/PublishingImages/TopStory/Turkey-dinner.jpg
+
+twelve:
+  name: Beef jerky salad
+  description: Salad for low carb diet
+  price: 120000
+  section: dinner
+  image_url: https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xta1/t51.2885-15/e35/13573535_714035372068821_1793846014_n.jpg?ig_cache_key=MTI5MTE5ODEwODMxOTMxMzA0OA%3D%3D.2
+
+thirten:
+  name: Seafood pasta
+  description: Italian pasta with seafood
+  price: 100000
+  section: dinner
+  image_url: https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xat1/t51.2885-15/e35/13597685_1236121456399534_2120411797_n.jpg?ig_cache_key=MTI5MTE5Nzk0OTY4MjgyNTE3NQ%3D%3D.2
+  
+fourten:
+  name: Chicken Bouno
+  description: One of the classical Japanese food
+  price: 200000
+  section: dinner
+  image_url: https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xtl1/t51.2885-15/e35/13642888_281773455547194_664885448_n.jpg?ig_cache_key=MTI5MTE5NzQzODE3ODM5OTIwNw%3D%3D.2
+  
+fiften:
+  name: Clamb Noodle
+  description: Well seasoned noodle and clambs
+  price: 135000
+  section: dinner
+  image_url: https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xlt1/t51.2885-15/e35/13643660_314161492261916_905164230_n.jpg?ig_cache_key=MTI5MTE5Njg1OTgwOTYxMDE3NA%3D%3D.2
+
+sixten:
+  name: Jasmine Milk Tea
+  description: Imported
+  price: 50000
+  section: drink
+  image_url: https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xtf1/t51.2885-15/e35/13651794_513797382164064_925941717_n.jpg?ig_cache_key=MTI5MTIwMDUzNTY3MTczNDQ1Ng%3D%3D.2
+
+seventen:
+  name: Citrus Mojito
+  description: Elevated mojito with lime, lemon, and orange
+  price: 100000
+  section: drink
+  image_url: https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xlp1/t51.2885-15/e35/13651654_1106958609363796_1753798993_n.jpg?ig_cache_key=MTI5MTE5OTUwNTU5Mjg5ODU1Nw%3D%3D.2
+
+eighten:
+  name: Detox Mix
+  description: Among the most healthiest drink
+  price: 100000
+  section: drink
+  image_url: https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/s480x480/e35/13651827_872772539496145_875266567_n.jpg?ig_cache_key=MTI5MTE5NzAxNDczODk2ODM4Ng%3D%3D.2
+
+nighten:
+  name: Orange Juice
+  description: Basic and pleasing juice
+  price: 40000
+  section: drink
+  image_url: https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/e35/13627915_272536026441240_5620972_n.jpg?ig_cache_key=MTI5MTE5NDc0Mzk3NjIzOTA2Mw%3D%3D.2
+
+twenty:
+  name: The Balvenie
+  description: The only liquor in the store
+  price: 500000
+  section: drink
+  image_url: https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xta1/t51.2885-15/e35/13597789_1073356706071945_1179825361_n.jpg?ig_cache_key=MTI5MTE5NDExODQ3OTI1OTI0OA%3D%3D.2
+

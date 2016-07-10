@@ -1,0 +1,18 @@
+<div class="row order-form">
+	<div class="col-md-4 col-md-offset-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Order succeed</h3>
+			</div>
+			<div class="panel-body">
+				<p>Thanks for your order.</p>
+				<p>Item: <%= @order.menu_item.name %></p>
+				<p>Price: <%= @order.menu_item.price %> đ</p>
+				<p>Deliver to:</p>
+				<p>Name: <%= @order.name %></p>
+				<p>Phone: <%= @order.phone %></p>
+				<p>Address: <%= @order.address %></p>
+			</div>
+		</div>
+	</div>
+</div>
