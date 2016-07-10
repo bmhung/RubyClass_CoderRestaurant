@@ -7,11 +7,12 @@
 			<div class="panel-body">
 				<p>Thanks for your order.</p>
 				<p>Item: <%= @order.menu_item.name %></p>
-				<p>Price: <%= @order.menu_item.price %> đ</p>
+				<p>Price: <%= @order.menu_item.price + 20000 %> đ</p>
 				<p>Deliver to:</p>
 				<p>Name: <%= @order.name %></p>
 				<p>Phone: <%= @order.phone %></p>
 				<p>Address: <%= @order.address %></p>
+				<p>This order is created at <%= @order.created_at.to_formatted_s(:short) %></p>
 			</div>
 		</div>
 	</div>
