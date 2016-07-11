@@ -57,7 +57,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: CoderRestaurant_test
+  database: d6ncbgokk0iu10
+  url: postgres://pdsqixvkvrldgb:MoptfR8UyakFQyV9uAC62nvBiS@ec2-54-225-244-221.compute-1.amazonaws.com:5432/d6ncbgokk0iu10
+  username: pdsqixvkvrldgb
+  password: MoptfR8UyakFQyV9uAC62nvBiS
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -71,7 +74,7 @@ test:
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
 #
-#   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+  # DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
 #
@@ -80,6 +83,7 @@ test:
 #
 production:
   <<: *default
+  url: 
   database: CoderRestaurant_production
   username: CoderRestaurant
   password: <%= ENV['CODERRESTAURANT_DATABASE_PASSWORD'] %>
