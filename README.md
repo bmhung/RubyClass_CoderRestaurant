@@ -2,11 +2,11 @@
 
 **Coder Restaurant** is a Ruby on Rails restaurant website let users order foods.
 
-Submitted by: **Your Name**
+Submitted by: Bui Minh Hung
 
-Time spent: **XX** hours spent in total
+Time spent: 8 hours spent in total
 
-URL: **heroku-app-url**
+URL: https://fierce-wildwood-37475.herokuapp.com/
 
 ## User Stories
 
